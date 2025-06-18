@@ -149,6 +149,3 @@ Feedstock Maintainers
 
 * [@athkulk](https://github.com/athkulk/)
 
-
-<!-- dummy commit to enable rerendering -->
-
