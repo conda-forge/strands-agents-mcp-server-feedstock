@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "strands-agents-mcp-server" %}
-{% set version = "0.1.2" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/strands_agents_mcp_server-{{ version }}.tar.gz
-  sha256: d9766d1e4dbf569ad2663e0fc221edcc8964edaa422b45e61449cef61fd67f8f
+  sha256: 6de8bbca5aec253d3a2948aab6f7505e3f36dd503497c48666ef667a1c279018
 
 build:
   entry_points:
